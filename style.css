@@ -1,6 +1,53 @@
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: goldenrod;
+  height: 50px;
+  position: fixed;
+  min-width: 100%;
+}
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#navbar p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#nav-buttons {
+  padding-right: 10px;
+}
+
+#navbar a {
+  text-align: center;
+  font-size: 40px;
+}
+
+#navbar i {
+  padding: 5px 10px;
+}
+
+#navbar a:hover {
+  background-color: black;
+  color: goldenrod;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#main-container {
+  padding-top: 60px;
+}
+
 .dropbtn {
     background-color: #f86624;
-    color: white;
+    color: black;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -38,5 +85,7 @@
     background-color: #7d7abc;
 }
 body{
-    text-align: center;
-}
+    background-color: rgb(35,35,35);
+    margin: 0;
+    padding: 0;
+  }
