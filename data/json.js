@@ -26,7 +26,7 @@ var calendar = [ // Array of day objects
             "exerciseRepUnits": ""
           }
         ]//end array of sets
-      }//end first session object in array "sessions" of day object
-    ]//end of "sessions" array
+      }//end first session object
+    ]//end of "sessions" array (array of session objects)
   }//end of day object
-]
+]//end of "calendar" array (array of day objects)
