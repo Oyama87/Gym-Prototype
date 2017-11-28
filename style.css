@@ -1,7 +1,16 @@
 .banner{
     width: 100%;
-    height: 550px;
-    background:url('10326382505_89631fb013_h.jpg');
+    height: 680px;
     background-position: center;
+background-image: url(10326382505_89631fb013_h.jpg);
 
+}
+
+body{
+  background-color: #7d7b7f;
+}
+
+h1 {
+  color: red;
+  text-align: center;
 }
